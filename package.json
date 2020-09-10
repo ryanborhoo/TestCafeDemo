@@ -18,7 +18,6 @@
   "homepage": "https://github.com/ryanborhoo/TestCafeDemo#readme",
   "dependencies": {
     "@testing-library/testcafe": "^4.2.0",
-    "testcafe": "^1.9.2",
     "babel-eslint": "^8.2.6",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.1.0",
@@ -26,6 +25,9 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^2.5.0",
-    "eslint-plugin-testcafe": "^0.2.1"
+    "eslint-plugin-testcafe": "^0.2.1",
+    "faker": "^5.1.0",
+    "moment": "^2.27.0",
+    "testcafe": "^1.9.2"
   }
 }
