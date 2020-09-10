@@ -1,0 +1,29 @@
+{
+  "env": {
+    "amd": true,
+    "node": true,
+    "browser": true
+  },
+  "globals": {
+    "fixture": true,
+    "test": true
+  },
+  "plugins": [
+    "testcafe"
+  ],
+  "rules": {
+    "no-unsaved-expressions": "off"
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "extends": [
+    "airbnb-base",
+    "airbnb-base/legacy",
+    "plugin:testcafe/recommended",
+    "eslint:recommended"
+  ]
+}
+

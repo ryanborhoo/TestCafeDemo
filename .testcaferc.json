@@ -1,0 +1,16 @@
+{
+  "screenshots": {
+    "takeOnFails": false,
+    "pathPattern": "${DATE}_${TIME}/test-${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png",
+    "fullPage": true,
+    "screenshotPath": "/home/user/tests/screenshots/"
+  },
+  "skipJsErrors": true,
+  "skipUncaughtErrors": true,
+  "selectorTimeout": 3000,
+  "assertionTimeout": 1000,
+  "pageLoadTimeout": 5000,
+  "clientScripts": [
+    "./node_modules/@testing-library/dom/dist/@testing-library/dom.umd.js"
+  ]
+}
