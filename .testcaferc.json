@@ -1,10 +1,4 @@
 {
-  "screenshots": {
-    "takeOnFails": false,
-    "pathPattern": "${DATE}_${TIME}/test-${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png",
-    "fullPage": true,
-    "screenshotPath": "/home/user/tests/screenshots/"
-  },
   "skipJsErrors": true,
   "skipUncaughtErrors": true,
   "selectorTimeout": 3000,
